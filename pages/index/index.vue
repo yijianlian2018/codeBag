@@ -14,7 +14,7 @@
 			<view class="line">|</view>
 			<view @tap="navFilter" data-url="search/search" class="input">
 				<image src="/static/search.png"></image>
-				<view>请输入搜索内容...</view>
+				<view>请输入搜索内容.</view>
 			</view>
 		</view>
 		<view class="nav">
