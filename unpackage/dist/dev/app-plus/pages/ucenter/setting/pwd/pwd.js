@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"btn.",[1],"data-v-273f0446 { width: ",[0,700],"; margin: ",[0,60]," auto; height: ",[0,80],"; font-size: ",[0,34],"; border-radius: ",[0,10],"; }\n",],undefined,{path:"./pages/ucenter/setting/pwd/pwd.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/ucenter/setting/pwd/pwd.wxml') } }));

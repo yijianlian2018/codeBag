@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "日常活动",
+  "usingComponents": {
+    "activity-list": "/components/activityList"
+  }
+}

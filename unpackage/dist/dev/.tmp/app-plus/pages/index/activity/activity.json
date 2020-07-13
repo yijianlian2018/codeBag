@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "活动详情",
+  "softinputNavBar": "none",
+  "softinputMode": "adjustResize",
+  "usingComponents": {
+    "van-loading": "/wxcomponents/vant/loading/index",
+    "van-field": "/wxcomponents/vant/field/index",
+    "van-cell": "/wxcomponents/vant/cell/index",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

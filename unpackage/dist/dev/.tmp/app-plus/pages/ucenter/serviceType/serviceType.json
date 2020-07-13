@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "平台资质",
+  "usingComponents": {
+    "van-cell": "/wxcomponents/vant/cell/index",
+    "van-loading": "/wxcomponents/vant/loading/index"
+  }
+}

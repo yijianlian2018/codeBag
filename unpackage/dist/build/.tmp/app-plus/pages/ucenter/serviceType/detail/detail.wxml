@@ -1,0 +1,1 @@
+<view class="page data-v-29fab6d4"><block wx:if="{{content}}"><u-parse vue-id="1" content="{{content}}" class="data-v-29fab6d4" bind:__l="__l"></u-parse></block><block wx:else><image class="empty data-v-29fab6d4" src="/static/empty.png" mode="widthFix"></image></block></view>

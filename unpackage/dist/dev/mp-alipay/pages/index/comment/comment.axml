@@ -1,0 +1,1 @@
+<view class="page data-v-39918651"><textarea class="text data-v-39918651" placeholder-style="color:#F76260" placeholder="占位符字体是红色的" data-event-opts="{{[['input',[['__set_model',['','content','$event',[]]]]]]}}" value="{{content}}" onInput="__e"></textarea></view>

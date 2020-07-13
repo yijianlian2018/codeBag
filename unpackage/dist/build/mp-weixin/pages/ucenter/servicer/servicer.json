@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的服务人",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

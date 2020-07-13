@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "活动报名",
+  "usingComponents": {
+    "activity-list": "/components/activityList"
+  }
+}

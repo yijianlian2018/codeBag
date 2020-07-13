@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"current { padding: ",[0,100]," ",[0,30]," 0; text-align: center; font-size: ",[0,24],"; color: #333; }\n.",[1],"cur_mid { margin: ",[0,25]," 0 ",[0,30]," 0; }\n.",[1],"current wx-button { margin-top: ",[0,120],"; width: 70%; }\n.",[1],"but_normal { background-color: #007bff; color: #fff; }\n.",[1],"but_nor_hover { opacity: 0.8; }\n",],undefined,{path:"./pages/authorize/authorize.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/authorize/authorize.wxml') } }));

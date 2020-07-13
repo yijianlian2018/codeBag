@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "titleNView": false,
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "article-list": "/components/articleList"
+  }
+}

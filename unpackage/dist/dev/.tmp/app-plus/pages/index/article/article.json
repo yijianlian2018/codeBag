@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "文章详情",
+  "navigationBarTextStyle": "white",
+  "titleNView": {
+    "type": "transparent"
+  },
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "softinputMode": "adjustResize",
+  "usingComponents": {
+    "van-loading": "/wxcomponents/vant/loading/index",
+    "article-list": "/components/articleList",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "u-parse": "/components/u-parse/u-parse"
+  }
+}

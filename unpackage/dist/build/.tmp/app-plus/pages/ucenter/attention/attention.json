@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的关注",
+  "usingComponents": {
+    "van-cell": "/wxcomponents/vant/cell/index",
+    "van-button": "/wxcomponents/vant/button/index",
+    "van-loading": "/wxcomponents/vant/loading/index"
+  }
+}

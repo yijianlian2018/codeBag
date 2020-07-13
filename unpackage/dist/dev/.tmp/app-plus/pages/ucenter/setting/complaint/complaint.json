@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的投诉",
+  "usingComponents": {
+    "van-loading": "/wxcomponents/vant/loading/index"
+  }
+}

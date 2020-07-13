@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"wechat.",[1],"data-v-39d40f23 { text-align: center; }\n.",[1],"wechat wx-view.",[1],"data-v-39d40f23 { margin: ",[0,70]," auto; color: #999; font-size: ",[0,24],"; }\n.",[1],"wechat .",[1],"on-hover.",[1],"data-v-39d40f23 { opacity: 0.8; }\n.",[1],"wechat wx-image.",[1],"data-v-39d40f23 { width: ",[0,120],"; height: ",[0,120],"; }\n",],undefined,{path:"./pages/login/login.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/login/login.wxml') } }));

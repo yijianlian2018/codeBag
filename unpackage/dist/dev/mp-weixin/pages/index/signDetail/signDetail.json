@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "报名详情",
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

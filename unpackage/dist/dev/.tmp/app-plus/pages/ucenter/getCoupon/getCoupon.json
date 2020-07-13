@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "兑换代金券",
+  "usingComponents": {
+    "van-loading": "/wxcomponents/vant/loading/index"
+  }
+}

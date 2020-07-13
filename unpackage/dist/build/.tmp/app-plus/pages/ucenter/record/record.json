@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "砖瓦明细",
+  "usingComponents": {
+    "van-loading": "/wxcomponents/vant/loading/index"
+  }
+}

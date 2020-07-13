@@ -1,0 +1,1 @@
+.current{padding:100rpx 30rpx 0;text-align:center;font-size:24rpx;color:#333}.cur_mid{margin:25rpx 0 30rpx 0}.current button{margin-top:120rpx;width:70%}.but_normal{background-color:#007bff;color:#fff}.but_nor_hover{opacity:.8}

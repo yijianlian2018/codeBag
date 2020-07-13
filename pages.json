@@ -1,0 +1,324 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none"
+				},
+				"mp-weixin": {
+					"navigationStyle": "custom"
+				}
+			}
+		}, {
+			"path": "pages/index/citys/citys",
+			"style": {
+				"navigationBarTitleText": "城市选择",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/index/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}, {
+			"path": "pages/index/articleList/articleList",
+			"style": {
+				"navigationBarTitleText": "文章列表",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/index/article/article",
+			"style": {
+				"navigationBarTitleText": "文章详情",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					},
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"softinputNavBar": "none",
+					"softinputMode": "adjustResize"
+				},
+				"mp-weixin": {
+					"navigationStyle": "custom"
+				}
+			}
+		}, {
+			"path": "pages/index/author/author",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		}, {
+			"path": "pages/index/actList/actList",
+			"style": {
+				"navigationBarTitleText": "日常活动",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/index/activity/activity",
+			"style": {
+				"navigationBarTitleText": "活动详情",
+				"app-plus": {
+					"softinputNavBar": "none",
+					"softinputMode": "adjustResize"
+				}
+			}
+		}, {
+			"path": "pages/index/courseList/courseList",
+			"style": {
+				"navigationBarTitleText": "工人培训",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/index/course/course",
+			"style": {
+				"navigationBarTitleText": "培训详情",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/message/detail/detail",
+			"style": {
+				"navigationBarTitleText": "消息详情"
+			}
+		}, {
+			"path": "pages/ucenter/ucenter",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": false
+				},
+				"mp-weixin": {
+					"navigationStyle": "custom"
+				}
+			}
+		}, {
+			"path": "pages/ucenter/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, {
+			"path": "pages/ucenter/setting/mobile/mobile",
+			"style": {
+				"navigationBarTitleText": "修改手机号"
+			}
+		}, {
+			"path": "pages/ucenter/setting/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "修改登录密码"
+			}
+		}, {
+			"path": "pages/ucenter/setting/about/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		}, {
+			"path": "pages/ucenter/setting/complaint/complaint",
+			"style": {
+				"navigationBarTitleText": "我的投诉"
+			}
+		}, {
+			"path": "pages/ucenter/setting/complaint/submit/submit",
+			"style": {
+				"navigationBarTitleText": "提交投诉"
+			}
+		}, {
+			"path": "pages/ucenter/info/info",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		}, {
+			"path": "pages/ucenter/attention/attention",
+			"style": {
+				"navigationBarTitleText": "我的关注"
+			}
+		}, {
+			"path": "pages/ucenter/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "pages/ucenter/integral/integral",
+			"style": {
+				"navigationBarTitleText": "我的砖瓦",
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": {
+						"buttons": [{
+							"width": "70px",
+							"text": "明细",
+							"fontSize": "14px",
+							"color": "#A5A5A5"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/ucenter/getCoupon/getCoupon",
+			"style": {
+				"navigationBarTitleText": "兑换代金券"
+			}
+		}, {
+			"path": "pages/ucenter/record/record",
+			"style": {
+				"navigationBarTitleText": "砖瓦明细"
+			}
+		}, {
+			"path": "pages/ucenter/collection/collection",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		}, {
+			"path": "pages/ucenter/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "我的代金券"
+			}
+		}, {
+			"path": "pages/ucenter/activity/activity",
+			"style": {
+				"navigationBarTitleText": "活动报名"
+			}
+		}, {
+			"path": "pages/ucenter/servicer/servicer",
+			"style": {
+				"navigationBarTitleText": "我的服务人"
+			}
+		}, {
+			"path": "pages/ucenter/serviceType/serviceType",
+			"style": {
+				"navigationBarTitleText": "平台资质"
+			}
+		}, {
+			"path": "pages/ucenter/serviceType/detail/detail",
+			"style": {
+				"navigationBarTitleText": "资质详情"
+			}
+		}, {
+			"path": "pages/index/success/success",
+			"style": {
+				"navigationBarTitleText": "报名结果"
+			}
+		}, {
+			"path": "pages/index/signDetail/signDetail",
+			"style": {
+				"navigationBarTitleText": "报名详情"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"scrollIndicator": "none"
+			}
+		}, {
+			"path": "pages/wxLogin/wxLogin",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/getPwd/getPwd",
+			"style": {
+				"navigationBarTitleText": "",
+				"scrollIndicator": "none"
+			}
+		}, {
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"scrollIndicator": "none"
+			}
+		}, {
+			"path": "pages/message/chat/chat",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"softinputMode": "adjustResize",
+					"softinputNavBar": "none"
+				}
+			}
+		}, {
+			"path": "pages/ucenter/setting/complaint/detail/detail",
+			"style": {
+				"navigationBarTitleText": "投诉回复"
+			}
+		}, {
+			"path": "pages/index/video/video",
+			"style": {}
+		}, {
+			"path": "pages/share/share",
+			"style": {}
+		}, {
+			"path": "pages/authorize/authorize",
+			"style": {}
+		}
+	],
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [{
+	// 		"name": "", //模式名称
+	// 		"path": "pages/wxLogin/wxLogin", //启动页面，必选
+	// 		"query": "" //启动参数，在页面的onLoad函数里面得到
+	// 	}]
+	// },
+	"tabBar": {
+		"borderStyle": "black",
+		"color": "#9B9B9B",
+		"selectedColor": "#4CA2FF",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/index.png",
+			"selectedIconPath": "static/index_foc.png"
+		}, {
+			"pagePath": "pages/message/message",
+			"text": "消息",
+			"iconPath": "static/message.png",
+			"selectedIconPath": "static/message_foc.png"
+		}, {
+			"pagePath": "pages/ucenter/ucenter",
+			"text": "我的",
+			"iconPath": "static/my.png",
+			"selectedIconPath": "static/my_foc.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "易建联",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": { //这里为方便，全局引入了所有组件，也可以在某个page下单独引用某个组件
+			"van-area": "/wxcomponents/vant/area/index",
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-cell": "/wxcomponents/vant/cell/index",
+			"van-field": "/wxcomponents/vant/field/index",
+			"van-loading": "/wxcomponents/vant/loading/index",
+			"van-popup": "/wxcomponents/vant/popup/index",
+			"van-radio": "/wxcomponents/vant/radio/index",
+			"van-radio-group": "/wxcomponents/vant/radio-group/index",
+			"van-search": "/wxcomponents/vant/search/index",
+			"van-swipe-cell": "/wxcomponents/vant/swipe-cell/index",
+			"van-tab": "/wxcomponents/vant/tab/index",
+			"van-tabs": "/wxcomponents/vant/tabs/index",
+			"van-tag": "/wxcomponents/vant/tag/index",
+			"van-nav-bar": "/wxcomponents/vant/nav-bar/index"
+		}
+	}
+}

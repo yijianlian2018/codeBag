@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"page.",[1],"data-v-cb49edee { padding: ",[0,15]," 0; }\n.",[1],"page .",[1],"btn.",[1],"data-v-cb49edee { width: ",[0,710],"; margin: ",[0,100]," auto ",[0,50],"; }\n.",[1],"page .",[1],"avatar.",[1],"data-v-cb49edee { width: ",[0,80],"; height: ",[0,80],"; border-radius: ",[0,100],"; background-color: #eee; }\n",],undefined,{path:"./pages/ucenter/info/info.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/ucenter/info/info.wxml') } }));

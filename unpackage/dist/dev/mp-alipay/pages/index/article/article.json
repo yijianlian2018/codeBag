@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "文章详情",
+  "usingComponents": {
+    "article-list": "/components/articleList",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "文章列表",
+  "usingComponents": {
+    "article-list": "/components/articleList"
+  }
+}

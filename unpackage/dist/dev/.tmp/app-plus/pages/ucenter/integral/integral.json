@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "我的砖瓦",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "width": "70px",
+        "text": "明细",
+        "fontSize": "14px",
+        "color": "#A5A5A5"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,102 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/citys/citys",
+    "pages/index/search/search",
+    "pages/index/articleList/articleList",
+    "pages/index/articleList/articleList1",
+    "pages/index/article/article",
+    "pages/index/author/author",
+    "pages/index/actList/actList",
+    "pages/index/activity/activity",
+    "pages/index/courseList/courseList",
+    "pages/index/course/course",
+    "pages/message/message",
+    "pages/message/detail/detail",
+    "pages/ucenter/ucenter",
+    "pages/ucenter/setting/setting",
+    "pages/ucenter/setting/mobile/mobile",
+    "pages/ucenter/setting/pwd/pwd",
+    "pages/ucenter/setting/about/about",
+    "pages/ucenter/setting/complaint/complaint",
+    "pages/ucenter/setting/complaint/submit/submit",
+    "pages/ucenter/info/info",
+    "pages/ucenter/attention/attention",
+    "pages/ucenter/order/order",
+    "pages/ucenter/integral/integral",
+    "pages/ucenter/getCoupon/getCoupon",
+    "pages/ucenter/record/record",
+    "pages/ucenter/collection/collection",
+    "pages/ucenter/coupon/coupon",
+    "pages/ucenter/activity/activity",
+    "pages/ucenter/servicer/servicer",
+    "pages/ucenter/serviceType/serviceType",
+    "pages/ucenter/serviceType/detail/detail",
+    "pages/index/success/success",
+    "pages/index/signDetail/signDetail",
+    "pages/login/login",
+    "pages/wxLogin/wxLogin",
+    "pages/getPwd/getPwd",
+    "pages/register/register",
+    "pages/message/chat/chat",
+    "pages/ucenter/setting/complaint/detail/detail",
+    "pages/index/video/video",
+    "pages/share/share",
+    "pages/authorize/authorize"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "易建联",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#9B9B9B",
+    "selectedColor": "#4CA2FF",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index_foc.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "static/message.png",
+        "selectedIconPath": "static/message_foc.png"
+      },
+      {
+        "pagePath": "pages/ucenter/ucenter",
+        "text": "我的",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my_foc.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "易建联需要获取您的位置信息"
+    }
+  },
+  "usingComponents": {
+    "van-area": "/wxcomponents/vant/area/index",
+    "van-button": "/wxcomponents/vant/button/index",
+    "van-cell": "/wxcomponents/vant/cell/index",
+    "van-field": "/wxcomponents/vant/field/index",
+    "van-loading": "/wxcomponents/vant/loading/index",
+    "van-popup": "/wxcomponents/vant/popup/index",
+    "van-radio": "/wxcomponents/vant/radio/index",
+    "van-radio-group": "/wxcomponents/vant/radio-group/index",
+    "van-search": "/wxcomponents/vant/search/index",
+    "van-swipe-cell": "/wxcomponents/vant/swipe-cell/index",
+    "van-tab": "/wxcomponents/vant/tab/index",
+    "van-tabs": "/wxcomponents/vant/tabs/index",
+    "van-tag": "/wxcomponents/vant/tag/index",
+    "van-nav-bar": "/wxcomponents/vant/nav-bar/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

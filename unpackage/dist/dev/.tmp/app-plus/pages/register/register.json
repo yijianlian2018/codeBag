@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "van-field": "/wxcomponents/vant/field/index",
+    "van-radio-group": "/wxcomponents/vant/radio-group/index",
+    "van-radio": "/wxcomponents/vant/radio/index",
+    "van-popup": "/wxcomponents/vant/popup/index",
+    "van-area": "/wxcomponents/vant/area/index"
+  }
+}

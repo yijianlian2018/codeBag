@@ -1,0 +1,329 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page.data-v-9c40199e {
+  padding-bottom: 140rpx;
+}
+.page .banner.data-v-9c40199e {
+    width: 750rpx;
+}
+.page .sign-box.data-v-9c40199e {
+    position: relative;
+    z-index: 10;
+    width: 690rpx;
+    padding: 40rpx;
+    margin: -60rpx auto 30rpx;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 15rpx;
+    border: 1px solid #f7f7f7;
+    background-color: #fff;
+    -webkit-box-shadow: 10rpx 10rpx 15rpx #f3f3f3;
+            box-shadow: 10rpx 10rpx 15rpx #f3f3f3;
+}
+.page .sign-box .row.data-v-9c40199e {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-top: 20rpx;
+      color: #b9b9b9;
+      font-size: 26rpx;
+}
+.page .sign-box .row view.data-v-9c40199e {
+        font-size: 24rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.page .sign-box .row view image.data-v-9c40199e {
+          width: 26rpx;
+          margin-right: 10rpx;
+}
+.page .sign-box .btn.data-v-9c40199e {
+      margin-top: 30rpx;
+      height: 80rpx;
+      line-height: 80rpx;
+}
+.page .author.data-v-9c40199e {
+    border-bottom: 15rpx solid #f7f7f7;
+    padding: 30rpx;
+    margin: 30rpx 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.page .author .avatar.data-v-9c40199e {
+      width: 80rpx;
+      height: 80rpx;
+      border-radius: 50rpx;
+      margin-right: 30rpx;
+}
+.page .author .body.data-v-9c40199e {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+}
+.page .author .body .renzh.data-v-9c40199e {
+        margin-top: 10rpx;
+        font-size: 22rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        color: #007bff;
+}
+.page .author .body .renzh image.data-v-9c40199e {
+          width: 25rpx;
+          margin-right: 10rpx;
+}
+.page .author .btn.data-v-9c40199e {
+      margin-left: 20rpx;
+      font-size: 26rpx;
+      padding: 10rpx 40rpx;
+}
+.page .comment.popup.data-v-9c40199e {
+    position: relative;
+}
+.page .comment.popup .close.data-v-9c40199e {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 80rpx;
+      line-height: 80rpx;
+      padding: 0 30rpx;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      position: absolute;
+      text-align: right;
+}
+.page .comment.popup .close image.data-v-9c40199e {
+        width: 30rpx;
+        height: 30rpx;
+}
+.page .comment.popup .line.data-v-9c40199e {
+      border-bottom: 1px solid #dedede;
+      text-align: center;
+}
+.page .comment.popup .line text.data-v-9c40199e {
+        position: relative;
+        top: 20rpx;
+        font-size: 24rpx;
+        padding: 0 30rpx;
+        background-color: #fff;
+}
+.page .comment.popup .user .body.data-v-9c40199e {
+      border: none;
+}
+.page .comment.data-v-9c40199e {
+    padding: 0 30rpx;
+}
+.page .comment .more.data-v-9c40199e {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      color: #000;
+}
+.page .comment .more image.data-v-9c40199e {
+        width: 30rpx;
+        height: 30rpx;
+}
+.page .comment .item.data-v-9c40199e {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      margin-top: 20rpx;
+}
+.page .comment .item .user.data-v-9c40199e {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+}
+.page .comment .item .user .avatar.data-v-9c40199e {
+          width: 80rpx;
+          height: 80rpx;
+          border-radius: 50rpx;
+          margin-right: 30rpx;
+}
+.page .comment .item .user .body.data-v-9c40199e {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+          color: #666;
+          padding-bottom: 20rpx;
+          border-bottom: 1px solid #f1f1f1;
+          font-size: 26rpx;
+}
+.page .comment .item .user .body .info.data-v-9c40199e {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+}
+.page .comment .item .user .body .info .time.data-v-9c40199e {
+              color: #999;
+              font-size: 22rpx;
+}
+.page .comment .item .user .body .content.data-v-9c40199e {
+            margin-top: 20rpx;
+}
+.page .comment .item .icon.data-v-9c40199e {
+        width: 40rpx;
+        height: 40rpx;
+}
+.page .tj.data-v-9c40199e {
+    padding: 0 30rpx 20rpx;
+}
+.page .footer.data-v-9c40199e {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100rpx;
+    padding: 0 30rpx;
+    border-top: 1px solid #f3f3f3;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #fff;
+    color: #b9b9b9;
+    font-size: 26rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.page .footer .icon.data-v-9c40199e {
+      width: 35rpx;
+      height: 35rpx;
+      margin-right: 10rpx;
+}
+.page .footer .write.data-v-9c40199e {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.page .footer .write .icon.data-v-9c40199e {
+        width: 40rpx;
+        height: 40rpx;
+}
+.page .footer .action.data-v-9c40199e {
+      width: 350rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.page .footer .action view.data-v-9c40199e {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+

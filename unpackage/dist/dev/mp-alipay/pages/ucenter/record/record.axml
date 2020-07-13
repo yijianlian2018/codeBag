@@ -1,0 +1,1 @@
+<view class="page data-v-ba01632e"><block a:for="{{9}}" a:for-item="i" a:for-index="__i0__" a:key="*this"><view class="item data-v-ba01632e"><text class="data-v-ba01632e">阅读资讯</text><view class="data-v-ba01632e"><view class="data-v-ba01632e">+10.00</view><text class="data-v-ba01632e">2019年2月14日</text></view></view></block></view>

@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"btn.",[1],"data-v-4bfce56c { width: ",[0,700],"; margin: ",[0,60]," auto; height: ",[0,80],"; font-size: ",[0,34],"; border-radius: ",[0,10],"; }\n.",[1],"code.",[1],"data-v-4bfce56c { font-size: ",[0,30],"; }\n",],undefined,{path:"./pages/ucenter/setting/mobile/mobile.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/ucenter/setting/mobile/mobile.wxml') } }));
