@@ -24,54 +24,52 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.page.data-v-614b8bf1 {
-  padding: 30rpx;
+.page.data-v-0300892e {
+  padding-bottom: 30rpx;
 }
-.page .course.data-v-614b8bf1 {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 30rpx;
-    border-radius: 15rpx;
+.page .course.data-v-0300892e {
+  position: relative;
+  overflow: hidden;
+  width: 690rpx;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  border-radius: 15rpx;
 }
-.page .course .bg.data-v-614b8bf1 {
-      border-radius: 15rpx;
-      width: 690rpx;
-      height: 240rpx;
+.page .course .bg.data-v-0300892e {
+  border-radius: 15rpx;
+  width: 690rpx;
+  height: 240rpx;
 }
-.page .course .info.data-v-614b8bf1 {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 690rpx;
-      height: 240rpx;
-      padding: 0 60rpx;
-      border-radius: 15rpx;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-      text-align: center;
-      background-color: rgba(0, 0, 0, 0.6);
-      color: #fff;
+.page .course .info.data-v-0300892e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 690rpx;
+  height: 240rpx;
+  padding: 0 60rpx;
+  border-radius: 15rpx;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
-.page .course .info .title.data-v-614b8bf1 {
-        font-size: 32rpx;
-        font-weight: bold;
+.page .course .info .title.data-v-0300892e {
+  font-size: 32rpx;
+  font-weight: bold;
 }
-.page .course .info .num.data-v-614b8bf1 {
-        font-size: 26rpx;
+.page .course .info .num.data-v-0300892e {
+  font-size: 26rpx;
 }
-.page .course .info .desc.data-v-614b8bf1 {
-        font-size: 26rpx;
+.page .course .info .desc.data-v-0300892e {
+  font-size: 26rpx;
 }
 

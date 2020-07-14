@@ -31,29 +31,8 @@
 			</view>
 		</view>
 		<view class="list">
-			<van-cell size="large" :center="true" is-link title="我的关注" @tap="navFilter" data-url="./attention/attention">
-				<image slot="icon" src="../../static/attention.png" class="icon"></image>
-			</van-cell>
-			<van-cell size="large" :center="true" is-link title="我的订单" @tap="navFilter" data-url="./order/order">
-				<image slot="icon" src="../../static/order.png" class="icon"></image>
-			</van-cell>
-			<van-cell size="large" :center="true" is-link title="我的砖瓦" @tap="navFilter" data-url="./integral/integral">
-				<image slot="icon" src="../../static/integral.png" class="icon"></image>
-			</van-cell>
-			<van-cell size="large" :center="true" is-link title="我的收藏" @tap="navFilter" data-url="./collection/collection">
-				<image slot="icon" src="../../static/collection.png" class="icon"></image>
-			</van-cell>
-			<!-- <van-cell size="large" :center="true" is-link title="我的代金券" @tap="navFilter" data-url="./coupon/coupon">
-				<image slot="icon" src="../../static/ticket.png" class="icon"></image>
-			</van-cell> -->
-			<van-cell size="large" :center="true" is-link title="活动报名" @tap="navFilter" data-url="./activity/activity">
-				<image slot="icon" src="../../static/activity.png" class="icon"></image>
-			</van-cell>
-			<van-cell size="large" :center="true" is-link title="我的服务人" @tap="navFilter" data-url="./servicer/servicer">
-				<image slot="icon" src="../../static/servicer.png" class="icon"></image>
-			</van-cell>
-			<van-cell size="large" :center="true" is-link title="平台资质" @tap="navFilter" data-url="./serviceType/serviceType">
-				<image slot="icon" src="../../static/service_type.png" class="icon"></image>
+			<van-cell size="large" :center="true" is-link :title="item.name" @tap="navFilter"  :data-url="item.hrefUrl" v-for="(item, i) in list" :key="i">
+			    <image slot="icon" :src="item.picUrl" class="icon"></image>
 			</van-cell>
 		</view>
 		<view :class="{ popup: true, show: show }" @touchmove.stop.prevent="clear">
@@ -84,7 +63,8 @@ export default {
 	data() {
 		return {
 			show: false,
-			info: null
+			info: null,
+			list:[]
 		};
 	},
 	computed: {
@@ -100,8 +80,11 @@ export default {
 			};
 		}
 	},
+	imgHref(){
+		console.log('跳转')
+	},
 	onLoad() {
-		
+		this.myInfo();
 	},
 	onShow() {},
 	methods: {
@@ -109,6 +92,17 @@ export default {
 		showShare() {
 			uni.hideTabBar({});
 			this.show = true;
+		},
+		myInfo() {
+		
+			this.$Fetch({
+				url: 'my_menus/getdata',
+				data: '',
+				success: res => {
+					this.list = res;
+				}
+			});
+			
 		},
 		closePopup() {
 			this.show = false;

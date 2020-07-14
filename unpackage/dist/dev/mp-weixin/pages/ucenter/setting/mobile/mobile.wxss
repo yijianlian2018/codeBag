@@ -24,14 +24,14 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.btn.data-v-4bfce56c {
+.btn.data-v-0a30827c {
   width: 700rpx;
   margin: 60rpx auto;
   height: 80rpx;
   font-size: 34rpx;
   border-radius: 10rpx;
 }
-.code.data-v-4bfce56c {
+.code.data-v-0a30827c {
   font-size: 30rpx;
 }
 

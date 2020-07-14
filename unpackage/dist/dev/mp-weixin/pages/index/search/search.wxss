@@ -29,26 +29,24 @@
   margin-bottom: 40rpx;
 }
 .box .tags .title {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
 }
 .box .tags .title text {
-      color: #3a3a3a;
-      font-size: 40rpx;
-      font-weight: bold;
+  color: #3a3a3a;
+  font-size: 40rpx;
+  font-weight: bold;
 }
 .box .tags .title image {
-      width: 40rpx;
-      height: 40rpx;
+  width: 40rpx;
+  height: 40rpx;
 }
 .box .tags .tag {
-    margin-top: 20rpx;
-    margin-right: 20rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
 }
 

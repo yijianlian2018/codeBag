@@ -24,17 +24,17 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.page.data-v-cb49edee {
+.page.data-v-19a5ae81 {
   padding: 15rpx 0;
 }
-.page .btn.data-v-cb49edee {
-    width: 710rpx;
-    margin: 100rpx auto 50rpx;
+.page .btn.data-v-19a5ae81 {
+  width: 710rpx;
+  margin: 100rpx auto 50rpx;
 }
-.page .avatar.data-v-cb49edee {
-    width: 80rpx;
-    height: 80rpx;
-    border-radius: 100rpx;
-    background-color: #eee;
+.page .avatar.data-v-19a5ae81 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100rpx;
+  background-color: #eee;
 }
 

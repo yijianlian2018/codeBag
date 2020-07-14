@@ -1,1 +1,1 @@
-<view class="page data-v-41bef033"><activity-list vue-id="1" list="{{list}}" more="{{more}}" type="0" class="data-v-41bef033" bind:__l="__l"></activity-list></view>
+<view class="page data-v-27ca19ab"><activity-list vue-id="5d0cc68a-1" list="{{list}}" more="{{more}}" type="0" class="data-v-27ca19ab" bind:__l="__l"></activity-list></view>

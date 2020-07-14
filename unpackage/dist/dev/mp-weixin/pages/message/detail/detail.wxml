@@ -1,1 +1,1 @@
-<view class="page data-v-3c9c0826"><block wx:if="{{info}}"><u-parse vue-id="1" content="{{info.desc}}" class="data-v-3c9c0826" bind:__l="__l"></u-parse></block></view>
+<view class="page data-v-22a7319e"><block wx:if="{{info}}"><u-parse vue-id="323f8328-1" content="{{info.desc}}" class="data-v-22a7319e" bind:__l="__l"></u-parse></block></view>

@@ -1,1 +1,153 @@
-"use weex:vue";var __wxConfig = {"debug":false,"appname":"易建联共享服务平台","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"navigationBarTitleText":"首页","navigationBarTextStyle":"white","enablePullDownRefresh":true,"titleNView":false,"scrollIndicator":"none","usingComponents":{"article-list":"/components/articleList"}}},"pages/index/citys/citys.html":{"window":{"navigationBarTitleText":"城市选择","bounce":"none","scrollIndicator":"none","usingComponents":{"van-search":"/wxcomponents/vant/search/index"}}},"pages/index/search/search.html":{"window":{"navigationBarTitleText":"搜索","usingComponents":{"van-search":"/wxcomponents/vant/search/index","van-tag":"/wxcomponents/vant/tag/index","article-list":"/components/articleList"}}},"pages/index/articleList/articleList.html":{"window":{"navigationBarTitleText":"文章列表","enablePullDownRefresh":true,"usingComponents":{"article-list":"/components/articleList"}}},"pages/index/article/article.html":{"window":{"navigationBarTitleText":"文章详情","navigationBarTextStyle":"white","titleNView":{"type":"transparent"},"bounce":"none","scrollIndicator":"none","softinputNavBar":"none","softinputMode":"adjustResize","usingComponents":{"van-loading":"/wxcomponents/vant/loading/index","article-list":"/components/articleList","uni-popup":"/components/uni-popup/uni-popup","u-parse":"/components/u-parse/u-parse"}}},"pages/index/author/author.html":{"window":{"navigationBarTitleText":"主页","usingComponents":{"van-tabs":"/wxcomponents/vant/tabs/index","van-tab":"/wxcomponents/vant/tab/index","article-list":"/components/articleList","activity-list":"/components/activityList"}}},"pages/index/actList/actList.html":{"window":{"navigationBarTitleText":"日常活动","enablePullDownRefresh":true,"usingComponents":{"activity-list":"/components/activityList"}}},"pages/index/activity/activity.html":{"window":{"navigationBarTitleText":"活动详情","softinputNavBar":"none","softinputMode":"adjustResize","usingComponents":{"van-loading":"/wxcomponents/vant/loading/index","van-field":"/wxcomponents/vant/field/index","van-cell":"/wxcomponents/vant/cell/index","uni-popup":"/components/uni-popup/uni-popup"}}},"pages/index/courseList/courseList.html":{"window":{"navigationBarTitleText":"工人培训","enablePullDownRefresh":true,"usingComponents":{"van-tabs":"/wxcomponents/vant/tabs/index","van-tab":"/wxcomponents/vant/tab/index","van-loading":"/wxcomponents/vant/loading/index"}}},"pages/index/course/course.html":{"window":{"navigationBarTitleText":"培训详情","enablePullDownRefresh":true,"scrollIndicator":"none","usingComponents":{}}},"pages/message/message.html":{"window":{"navigationBarTitleText":"消息","enablePullDownRefresh":true,"usingComponents":{"van-tabs":"/wxcomponents/vant/tabs/index","van-tab":"/wxcomponents/vant/tab/index","van-loading":"/wxcomponents/vant/loading/index"}}},"pages/message/detail/detail.html":{"window":{"navigationBarTitleText":"消息详情","usingComponents":{"u-parse":"/components/u-parse/u-parse"}}},"pages/ucenter/ucenter.html":{"window":{"navigationBarTitleText":"我的","titleNView":false,"usingComponents":{"van-cell":"/wxcomponents/vant/cell/index"}}},"pages/ucenter/setting/setting.html":{"window":{"navigationBarTitleText":"设置","usingComponents":{"van-cell":"/wxcomponents/vant/cell/index"}}},"pages/ucenter/setting/mobile/mobile.html":{"window":{"navigationBarTitleText":"修改手机号","usingComponents":{"van-field":"/wxcomponents/vant/field/index"}}},"pages/ucenter/setting/pwd/pwd.html":{"window":{"navigationBarTitleText":"修改登录密码","usingComponents":{"van-field":"/wxcomponents/vant/field/index"}}},"pages/ucenter/setting/about/about.html":{"window":{"navigationBarTitleText":"关于我们","usingComponents":{"u-parse":"/components/u-parse/u-parse"}}},"pages/ucenter/setting/complaint/complaint.html":{"window":{"navigationBarTitleText":"我的投诉","usingComponents":{"van-loading":"/wxcomponents/vant/loading/index"}}},"pages/ucenter/setting/complaint/submit/submit.html":{"window":{"navigationBarTitleText":"提交投诉","usingComponents":{}}},"pages/ucenter/info/info.html":{"window":{"navigationBarTitleText":"个人资料","usingComponents":{"van-cell":"/wxcomponents/vant/cell/index","van-field":"/wxcomponents/vant/field/index","van-popup":"/wxcomponents/vant/popup/index","van-area":"/wxcomponents/vant/area/index"}}},"pages/ucenter/attention/attention.html":{"window":{"navigationBarTitleText":"我的关注","usingComponents":{"van-cell":"/wxcomponents/vant/cell/index","van-button":"/wxcomponents/vant/button/index","van-loading":"/wxcomponents/vant/loading/index"}}},"pages/ucenter/order/order.html":{"window":{"navigationBarTitleText":"我的订单","usingComponents":{"van-tabs":"/wxcomponents/vant/tabs/index","van-tab":"/wxcomponents/vant/tab/index","van-loading":"/wxcomponents/vant/loading/index"}}},"pages/ucenter/integral/integral.html":{"window":{"navigationBarTitleText":"我的砖瓦","scrollIndicator":"none","titleNView":{"buttons":[{"width":"70px","text":"明细","fontSize":"14px","color":"#A5A5A5"}]},"usingComponents":{}}},"pages/ucenter/getCoupon/getCoupon.html":{"window":{"navigationBarTitleText":"兑换代金券","usingComponents":{"van-loading":"/wxcomponents/vant/loading/index"}}},"pages/ucenter/record/record.html":{"window":{"navigationBarTitleText":"砖瓦明细","usingComponents":{"van-loading":"/wxcomponents/vant/loading/index"}}},"pages/ucenter/collection/collection.html":{"window":{"navigationBarTitleText":"我的收藏","usingComponents":{"van-tabs":"/wxcomponents/vant/tabs/index","van-tab":"/wxcomponents/vant/tab/index","article-list":"/components/articleList","activity-list":"/components/activityList"}}},"pages/ucenter/coupon/coupon.html":{"window":{"navigationBarTitleText":"我的代金券","usingComponents":{"van-loading":"/wxcomponents/vant/loading/index"}}},"pages/ucenter/activity/activity.html":{"window":{"navigationBarTitleText":"活动报名","usingComponents":{"van-tabs":"/wxcomponents/vant/tabs/index","van-tab":"/wxcomponents/vant/tab/index","activity-list":"/components/activityList"}}},"pages/ucenter/servicer/servicer.html":{"window":{"navigationBarTitleText":"我的服务人","usingComponents":{"van-field":"/wxcomponents/vant/field/index","van-cell":"/wxcomponents/vant/cell/index","uni-popup":"/components/uni-popup/uni-popup"}}},"pages/ucenter/serviceType/serviceType.html":{"window":{"navigationBarTitleText":"平台资质","usingComponents":{"van-cell":"/wxcomponents/vant/cell/index","van-loading":"/wxcomponents/vant/loading/index"}}},"pages/ucenter/serviceType/detail/detail.html":{"window":{"navigationBarTitleText":"资质详情","usingComponents":{"u-parse":"/components/u-parse/u-parse"}}},"pages/index/success/success.html":{"window":{"navigationBarTitleText":"报名结果","usingComponents":{}}},"pages/index/signDetail/signDetail.html":{"window":{"navigationBarTitleText":"报名详情","usingComponents":{"tki-qrcode":"/components/tki-qrcode/tki-qrcode"}}},"pages/login/login.html":{"window":{"navigationBarTitleText":"","scrollIndicator":"none","usingComponents":{"van-field":"/wxcomponents/vant/field/index"}}},"pages/wxLogin/wxLogin.html":{"window":{"navigationBarTitleText":"","usingComponents":{"van-field":"/wxcomponents/vant/field/index","van-radio-group":"/wxcomponents/vant/radio-group/index","van-radio":"/wxcomponents/vant/radio/index"}}},"pages/getPwd/getPwd.html":{"window":{"navigationBarTitleText":"","scrollIndicator":"none","usingComponents":{"van-field":"/wxcomponents/vant/field/index"}}},"pages/register/register.html":{"window":{"navigationBarTitleText":"","scrollIndicator":"none","usingComponents":{"van-field":"/wxcomponents/vant/field/index","van-radio-group":"/wxcomponents/vant/radio-group/index","van-radio":"/wxcomponents/vant/radio/index","van-popup":"/wxcomponents/vant/popup/index","van-area":"/wxcomponents/vant/area/index"}}},"pages/message/chat/chat.html":{"window":{"bounce":"none","scrollIndicator":"none","softinputMode":"adjustResize","softinputNavBar":"none","usingComponents":{}}},"pages/ucenter/setting/complaint/detail/detail.html":{"window":{"navigationBarTitleText":"投诉回复","usingComponents":{}}},"pages/index/video/video.html":{"window":{"usingComponents":{}}},"pages/share/share.html":{"window":{"usingComponents":{}}},"pages/authorize/authorize.html":{"window":{"usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"易建联","navigationBarBackgroundColor":"#FFFFFF","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#9B9B9B","selectedColor":"#4CA2FF","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","text":"首页","iconPath":"static/index.png","selectedIconPath":"static/index_foc.png"},{"pagePath":"pages/message/message.html","text":"消息","iconPath":"static/message.png","selectedIconPath":"static/message_foc.png"},{"pagePath":"pages/ucenter/ucenter.html","text":"我的","iconPath":"static/my.png","selectedIconPath":"static/my_foc.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/index/citys/citys","pages/index/search/search","pages/index/articleList/articleList","pages/index/article/article","pages/index/author/author","pages/index/actList/actList","pages/index/activity/activity","pages/index/courseList/courseList","pages/index/course/course","pages/message/message","pages/message/detail/detail","pages/ucenter/ucenter","pages/ucenter/setting/setting","pages/ucenter/setting/mobile/mobile","pages/ucenter/setting/pwd/pwd","pages/ucenter/setting/about/about","pages/ucenter/setting/complaint/complaint","pages/ucenter/setting/complaint/submit/submit","pages/ucenter/info/info","pages/ucenter/attention/attention","pages/ucenter/order/order","pages/ucenter/integral/integral","pages/ucenter/getCoupon/getCoupon","pages/ucenter/record/record","pages/ucenter/collection/collection","pages/ucenter/coupon/coupon","pages/ucenter/activity/activity","pages/ucenter/servicer/servicer","pages/ucenter/serviceType/serviceType","pages/ucenter/serviceType/detail/detail","pages/index/success/success","pages/index/signDetail/signDetail","pages/login/login","pages/wxLogin/wxLogin","pages/getPwd/getPwd","pages/register/register","pages/message/chat/chat","pages/ucenter/setting/complaint/detail/detail","pages/index/video/video","pages/share/share","pages/authorize/authorize"],"nvueCompiler":"weex","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.3.7","usingComponents":{"van-area":"/wxcomponents/vant/area/index","van-button":"/wxcomponents/vant/button/index","van-cell":"/wxcomponents/vant/cell/index","van-field":"/wxcomponents/vant/field/index","van-loading":"/wxcomponents/vant/loading/index","van-popup":"/wxcomponents/vant/popup/index","van-radio":"/wxcomponents/vant/radio/index","van-radio-group":"/wxcomponents/vant/radio-group/index","van-search":"/wxcomponents/vant/search/index","van-swipe-cell":"/wxcomponents/vant/swipe-cell/index","van-tab":"/wxcomponents/vant/tab/index","van-tabs":"/wxcomponents/vant/tabs/index","van-tag":"/wxcomponents/vant/tag/index","van-nav-bar":"/wxcomponents/vant/nav-bar/index"}};
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// install a JSONP callback for chunk loading
+/******/ 	function webpackJsonpCallback(data) {
+/******/ 		var chunkIds = data[0];
+/******/ 		var moreModules = data[1];
+/******/ 		var executeModules = data[2];
+/******/
+/******/ 		// add "moreModules" to the modules object,
+/******/ 		// then flag all "chunkIds" as loaded and fire callback
+/******/ 		var moduleId, chunkId, i = 0, resolves = [];
+/******/ 		for(;i < chunkIds.length; i++) {
+/******/ 			chunkId = chunkIds[i];
+/******/ 			if(installedChunks[chunkId]) {
+/******/ 				resolves.push(installedChunks[chunkId][0]);
+/******/ 			}
+/******/ 			installedChunks[chunkId] = 0;
+/******/ 		}
+/******/ 		for(moduleId in moreModules) {
+/******/ 			if(Object.prototype.hasOwnProperty.call(moreModules, moduleId)) {
+/******/ 				modules[moduleId] = moreModules[moduleId];
+/******/ 			}
+/******/ 		}
+/******/ 		if(parentJsonpFunction) parentJsonpFunction(data);
+/******/
+/******/ 		while(resolves.length) {
+/******/ 			resolves.shift()();
+/******/ 		}
+/******/
+/******/ 		// add entry modules from loaded chunk to deferred list
+/******/ 		deferredModules.push.apply(deferredModules, executeModules || []);
+/******/
+/******/ 		// run deferred modules when all chunks ready
+/******/ 		return checkDeferredModules();
+/******/ 	};
+/******/ 	function checkDeferredModules() {
+/******/ 		var result;
+/******/ 		for(var i = 0; i < deferredModules.length; i++) {
+/******/ 			var deferredModule = deferredModules[i];
+/******/ 			var fulfilled = true;
+/******/ 			for(var j = 1; j < deferredModule.length; j++) {
+/******/ 				var depId = deferredModule[j];
+/******/ 				if(installedChunks[depId] !== 0) fulfilled = false;
+/******/ 			}
+/******/ 			if(fulfilled) {
+/******/ 				deferredModules.splice(i--, 1);
+/******/ 				result = __webpack_require__(__webpack_require__.s = deferredModule[0]);
+/******/ 			}
+/******/ 		}
+/******/ 		return result;
+/******/ 	}
+/******/
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// object to store loaded and loading chunks
+/******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 	// Promise = chunk loading, 0 = chunk loaded
+/******/ 	var installedChunks = {
+/******/ 		"app-config": 0
+/******/ 	};
+/******/
+/******/ 	var deferredModules = [];
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "/";
+/******/
+/******/ 	var jsonpArray = this["webpackJsonp"] = this["webpackJsonp"] || [];
+/******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
+/******/ 	jsonpArray.push = webpackJsonpCallback;
+/******/ 	jsonpArray = jsonpArray.slice();
+/******/ 	for(var i = 0; i < jsonpArray.length; i++) webpackJsonpCallback(jsonpArray[i]);
+/******/ 	var parentJsonpFunction = oldJsonpFunction;
+/******/
+/******/
+/******/ 	// run deferred modules from other chunks
+/******/ 	checkDeferredModules();
+/******/ })
+/************************************************************************/
+/******/ ([]);

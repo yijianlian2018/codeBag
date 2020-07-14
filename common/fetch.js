@@ -5,8 +5,9 @@
  @ShowLoading 是否显示加载提示
  @ShowMsg 是否显示提示语
  */
-// const baseURL = "http://www.yijianlian.com/index.php/api/"; //本地服务器
-const baseURL = "https://yjl.tao.li4.cn/index.php/api/"; //测试服务器
+// const baseURL = "http://www.yijianlian.com/index.php/api/"; //本地服务器 
+// const baseURL = "http://2020.ea-pop.com/index.php/api/"; //测试服务器
+const baseURL = "https://online.bjyxshuntong.com/index.php/api/";
 export default {
 	Fetch: function(opt) {
 		const TOKEN = uni.getStorageSync('TOKEN');
@@ -47,10 +48,16 @@ export default {
 		if (opt.debug) {
 			console.log(opt.data)
 		}
-
+		console.log(opt.data)
+		// var testObj={
+		// 	mobile:'17538132018',
+		// 	pwd:'123456',
+		// 	code:'1106',
+		// 	server_people_id:'0138'
+		// }
 		uni.request({
 			url: baseURL + opt.url,
-			data: opt.data,
+			data:opt.data,
 			method: opt.method,
 			header: opt.header,
 			dataType: 'json',

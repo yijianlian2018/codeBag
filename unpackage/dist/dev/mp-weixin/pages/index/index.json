@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "首页",
   "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
   "navigationStyle": "custom",
   "usingComponents": {
     "article-list": "/components/articleList"

@@ -24,19 +24,19 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.wechat.data-v-719b8f3c {
+.wechat.data-v-b237504c {
   text-align: center;
 }
-.wechat view.data-v-719b8f3c {
-    margin: 70rpx auto;
-    color: #999;
-    font-size: 24rpx;
+.wechat view.data-v-b237504c {
+  margin: 70rpx auto;
+  color: #999;
+  font-size: 24rpx;
 }
-.wechat .on-hover.data-v-719b8f3c {
-    opacity: 0.8;
+.wechat .on-hover.data-v-b237504c {
+  opacity: 0.8;
 }
-.wechat image.data-v-719b8f3c {
-    width: 120rpx;
-    height: 120rpx;
+.wechat image.data-v-b237504c {
+  width: 120rpx;
+  height: 120rpx;
 }
 

@@ -27,27 +27,22 @@
 .container-inner {
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -webkit-flex-direction: row-reverse;
-      -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
 }
 .container {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
           flex-grow: 1;
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
           flex-direction: column;
   padding: 10rpx;
 }
@@ -61,18 +56,15 @@ scroll-view {
 }
 .side-bar-letter-list {
   -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
           flex-shrink: 0;
   width: 80rpx;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
           flex-direction: column;
   color: #666;
 }
@@ -90,15 +82,12 @@ scroll-view {
   color: #fff;
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
           align-items: center;
   position: fixed;
   top: 50%;
@@ -113,13 +102,11 @@ scroll-view {
 .selection {
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 10rpx;
 }
@@ -144,23 +131,19 @@ scroll-view {
   margin-bottom: -10rpx;
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
 .item-letter {
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   background-color: #f5f5f5;
   height: 40rpx;
   padding-left: 34rpx;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
           align-items: center;
   font-size: 24rpx;
   color: #666;
@@ -168,14 +151,12 @@ scroll-view {
 .item-city {
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   background-color: #fff;
   height: 100rpx;
   padding-left: 34rpx;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
           align-items: center;
   border-bottom: 1rpx solid #ededed;
   font-size: 24rpx;
@@ -219,8 +200,7 @@ scroll-view {
   width: 200rpx;
   height: 70rpx;
   line-height: 50rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 1rpx solid #ececec;
   border-radius: 8rpx;
   background-color: white;
@@ -229,16 +209,13 @@ scroll-view {
 .weui-grids {
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
-      -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
           justify-content: space-between;
 }
 .weui-grid-label {
@@ -247,8 +224,7 @@ scroll-view {
   color: #333;
   font-size: 24rpx;
   white-space: nowrap;
-  -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
+  text-overflow: ellipsis;
   overflow: hidden;
 }
 .ul {
@@ -272,10 +248,8 @@ input {
 .county {
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
 

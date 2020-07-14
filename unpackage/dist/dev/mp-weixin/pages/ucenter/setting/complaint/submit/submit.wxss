@@ -24,18 +24,16 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.uni-textarea.data-v-7a0f4066 {
+.uni-textarea.data-v-76400844 {
   width: 710rpx;
   padding: 20rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 10rpx;
   margin: auto;
   border: 1px solid #f3f3f3;
-  -webkit-box-shadow: 10rpx 10rpx 15rpx #dedede;
-          box-shadow: 10rpx 10rpx 15rpx #dedede;
+  box-shadow: 10rpx 10rpx 15rpx #dedede;
 }
-.btn.data-v-7a0f4066 {
+.btn.data-v-76400844 {
   width: 700rpx;
   margin: 60rpx auto;
   height: 80rpx;

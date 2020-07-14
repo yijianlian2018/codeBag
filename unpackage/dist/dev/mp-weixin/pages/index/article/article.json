@@ -3,8 +3,8 @@
   "navigationBarTextStyle": "white",
   "navigationStyle": "custom",
   "usingComponents": {
-    "article-list": "/components/articleList",
     "uni-popup": "/components/uni-popup/uni-popup",
+    "article-list": "/components/articleList",
     "u-parse": "/components/u-parse/u-parse"
   }
 }

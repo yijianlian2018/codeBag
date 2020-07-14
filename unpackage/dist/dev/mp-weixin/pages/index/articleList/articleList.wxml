@@ -1,1 +1,1 @@
-<view class="page"><article-list vue-id="1" list="{{list}}" more="{{more}}" bind:__l="__l"></article-list></view>
+<view class="page"><article-list vue-id="29b32573-1" list="{{list}}" more="{{more}}" bind:__l="__l"></article-list></view>

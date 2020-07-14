@@ -4,7 +4,6 @@
     "pages/index/citys/citys",
     "pages/index/search/search",
     "pages/index/articleList/articleList",
-    "pages/index/articleList/articleList1",
     "pages/index/article/article",
     "pages/index/author/author",
     "pages/index/actList/actList",
@@ -97,6 +96,5 @@
     "van-tabs": "/wxcomponents/vant/tabs/index",
     "van-tag": "/wxcomponents/vant/tag/index",
     "van-nav-bar": "/wxcomponents/vant/nav-bar/index"
-  },
-  "sitemapLocation": "sitemap29.json"
+  }
 }
